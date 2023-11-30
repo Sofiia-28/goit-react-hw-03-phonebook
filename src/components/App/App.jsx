@@ -1,8 +1,8 @@
 import { Component } from 'react';
-import { ContactsForm } from './ContactsForm';
-import { ContactList } from './ContactList';
+import { ContactsForm } from '../ContactsForm/ContactsForm';
+import { ContactList } from '../ContactList/ContactList';
 import { nanoid } from 'nanoid';
-import { Filter } from './Filter';
+import { Filter } from '../Filter/Filter';
 import { Wrapper } from './App.styled';
 
 const storageKey = 'contacts';
